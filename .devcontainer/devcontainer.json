@@ -3,5 +3,5 @@
       "dockerfile": "devcontainer.Dockerfile",
       "context": ".."
     },
-    "postStartCommand": "npm run start"
+    "postStartCommand": "npm install && npm run start"
 }
